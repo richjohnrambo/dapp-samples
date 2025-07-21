@@ -1,0 +1,31 @@
+{
+  "name": "dapp-samples",
+  "version": "1.0.0",
+  "description": "dapp practice",
+  "keywords": [
+    "dapp"
+  ],
+  "homepage": "https://github.com/richjohnrambo/dapp-samples#readme",
+  "bugs": {
+    "url": "https://github.com/richjohnrambo/dapp-samples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richjohnrambo/dapp-samples.git"
+  },
+  "license": "ISC",
+  "author": "rambo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "listenNftEvents": "tsc && node dist/NFTMarket.js"
+  },
+  "dependencies": {
+    "@ethersproject/wallet": "^5.8.0",
+    "@types/node": "^22.10.1",
+    "dotenv": "^16.5.0",
+    "shamirs-secret-sharing": "^2.0.0",
+    "typescript": "^5.7.2",
+    "viem": "^2.30.6"
+  }
+}
