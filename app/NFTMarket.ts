@@ -47,10 +47,6 @@ const main = async () => {
     const currentBlock = await publicClient.getBlockNumber();
     console.log(`当前区块号: ${currentBlock}`);
 
-    // 设置扫描范围（这里扫描最近 1000 个区块）
-    // get fromBlock from db
-    const fromBlock = 0n;
-    const toBlock = currentBlock;
 
     try {
         // 监听所有 事件
